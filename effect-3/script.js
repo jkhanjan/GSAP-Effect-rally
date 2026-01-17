@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
           rotation = initialRotation;
         }
 
-        // PHASE 2: Move to final positions (starts at 0.5)
         const phaseTwoStartOffsets = [0.5, 0.6, 0.7, 0.8];
         const phase2Start = phaseTwoStartOffsets[index];
         const phase2End = phase2Start + 0.35;
